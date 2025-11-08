@@ -1,5 +1,5 @@
-Let menu = document.querySelector("#menu-icon");
-Let navbar = document.querySelector(".navbar");
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
 
 menu.addEvenListener("click", function (){
   navbar.classList.toggle("active");
